@@ -1,0 +1,10 @@
+# 依存関係
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+
+# 機密情報・自動生成ファイル
+src/gateway_config.json
+src/.bedrock_agentcore.yaml
+src/.bedrock_agentcore/
