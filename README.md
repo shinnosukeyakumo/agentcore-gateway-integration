@@ -1,13 +1,13 @@
 # AgentCore Gateway Integration
 
-Amazon Bedrock AgentCore の Gateway (MCP) に Strands Agents から接続するサンプルです。
+Amazon Bedrock AgentCore の Gateway (MCP) に AgentCore RuntimeにデプロイしたStrands Agentsから接続するサンプルです。
 
 Cognito OAuth (M2M) で認証し、AgentCore Identity 経由でアクセストークンを取得して Gateway の MCP ツールを呼び出します。
 
 ## アーキテクチャ
 
 ```
-[Strands Agent]
+[AgentCore Runtime(Strands Agent)]
     │  AgentCore Identity で M2M トークン取得
     ▼
 [AgentCore Gateway (MCP)]
