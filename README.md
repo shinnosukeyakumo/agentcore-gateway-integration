@@ -51,9 +51,9 @@ uv run setup_gateway.py
 
 完了すると `gateway_config.json` が生成されます（※ Git 管理外）。
 
-### 4. 再デプロイ（Observability 有効化）
+### 4. 再デプロイ
 
-`aws-opentelemetry-distro` を有効にするため再デプロイが必要です。
+jsonファイルの環境変数を有効にするため再デプロイが必要です。
 
 ```bash
 uv run bedrock-agentcore deploy
